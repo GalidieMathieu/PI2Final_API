@@ -4,8 +4,7 @@ import nltk
 from Pipelines.Pipelines_fr import pipeline_fr
 from Pipelines.Pipelines_en import pipeline_en
 
-nlp_en = pipeline_en("question-generation")
-nlp_fr = pipeline_fr("multitask-qa-qg")
+
 
 
 class DataSingleton:
